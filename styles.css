@@ -1,0 +1,73 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+/* Fonts */
+body {
+  font-size: 18px;
+ }
+
+@font-face {
+  font-family: 'PublicSans-ExtraLight';
+  src: url("../fonts/public-sans/PublicSans-ExtraLight.otf");
+  format: "open-type";
+ }
+
+@font-face {
+  font-family: 'PublicSans-Light';
+  src: url("../fonts/public-sans/PublicSans-Light.otf");
+  format: "open-type";
+ }
+
+@font-face {
+  font-family: 'PublicSans-Regular';
+  src: url("../fonts/public-sans/PublicSans-Regular.otf");
+  format: "open-type";
+ }
+
+h1 {
+  font-family: 'PublicSans-ExtraLight';
+  font-size: 2.5rem;
+ }
+
+h2 {
+  font-family: 'PublicSans-ExtraLight';
+  font-size: 1.75rem;
+ }
+
+h3 {
+  font-family: 'PublicSans-ExtraLight';
+  font-size: 1.25rem;
+ }
+
+h4 {
+  font-family: 'PublicSans-ExtraLight';
+  font-size: 1rem;
+ }
+
+p {
+  font-family: 'PublicSans-ExtraLight';
+  font-size: 1rem;
+ }
+
+/* Selling Points */
+.selling-points p {
+  font-size: .9rem;
+ }
+
+/* Articles */
+.articles p {
+  font-size: .75rem;
+ }
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ }
+
+.attribution a {
+  color: #3e52a3;
+ }
